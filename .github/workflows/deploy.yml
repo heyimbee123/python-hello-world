@@ -27,7 +27,7 @@ jobs:
           eb init letsgo \
             --region us-east-2 \
             --platform "Python 3.11 running on 64bit Amazon Linux 2023"
-          eb use Letsgo-env
+          eb use Letsgo-env-2
 
       - name: Deploy to Elastic Beanstalk
         run: eb deploy
