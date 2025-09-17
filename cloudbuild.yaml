@@ -5,3 +5,6 @@ steps:
       - '-c'
       - |
         gcloud app deploy app.yaml --quiet
+
+options:
+  logging: CLOUD_LOGGING_ONLY
